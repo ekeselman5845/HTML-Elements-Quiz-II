@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+    <head>
+        <meta charset+"utf-g">
+        <title>HTML Elements Quiz II</title>
+    </head>
+    <body>
+        <h1>Here is a basic form.</h1>
+    </body>
+    <form action="/form-handling-url" method="post">
+        <fieldset>
+            <legend>Add user</legend>
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="first_name">
+            </div>
+
+            <div>
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="last_name">
+            </div>
+
+            <div>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address">
+            </div>
+
+            <div>
+                <label for="role">Role</label>
+                <select id="role" name="user_role_name">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="guest">Guest</option>
+                </select>
+            </div>
+
+            <div>
+                <p>Choose your favorite programming language:</p>
+                <button type="button">HTML</button>
+                <button type="button">CSS</button>
+                <button type="button">JavaScript</button>
+            </div>
+
+            <div>
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments">Add comments here.</textarea>
+            </div>
+
+            <div>
+                <label for="date">Today's Date</label>
+                <input type="date" id="date" name="date">
+            </div>
+
+            <div>
+                <label for="newsletter">Sign up for our newsletter!</label>
+                <input type="checkbox" id="newsletter" name="newsletter" checked>
+            </div>
+
+            <div>
+                <label for="terms">Do you agree to the terms and conditions?</label>
+                <input type="checkbox" id="terms" name="terms">
+            </div>
+
+            <div>
+                <button type="submit">Submit!</button>
+            </div>
+
+
+        </fieldset>
+    </form>
